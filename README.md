@@ -6,3 +6,7 @@
 
 ## Error Correction Example
 ![error correction example](./image/error_correction.png)
+
+## Deutsch Algorithm
+![deutsch algorithm example](./image/deutsch_algorithm.png)
+
