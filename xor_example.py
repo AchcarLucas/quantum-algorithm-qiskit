@@ -17,6 +17,7 @@ qc.h(0)
 # perform a controlled-X gate (XOR) on qubit 1, controlled by qubit 0
 qc.cx(0, 1)
 
+# perform measure all qbit
 qc.measure_all()
 
 # create backend service and run it
