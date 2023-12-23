@@ -1,3 +1,7 @@
+## Introduction to Quantum Computing
+
+### <a target="https://www.youtube.com/watch?v=c0D8X4eN_Cg&list=PLnK6MrIqGXsJfcBdppW3CKJ858zR8P4eP">Playlist - Introduction to Quantum Computing</a>
+
 ## First Example
 ![first example](./image/first_example.png)
 
