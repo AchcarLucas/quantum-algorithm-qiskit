@@ -7,15 +7,16 @@ ibm_key = get_ibm_key("IBM_KEY_LUCAS")
 
 service = QiskitRuntimeService(channel="ibm_quantum", token=ibm_key)
 
-# Create empty circuit
+# create empty circuit
 example_circuit = QuantumCircuit(2)
 example_circuit.measure_all()
  
-# You'll need to specify the credentials when initializing QiskitRuntimeService, if they were not previously saved.
+# create backend service and run it
 backend = service.backend("ibmq_qasm_simulator")
 job = Sampler(backend).run(example_circuit)
 
 print(f"job id: {job.job_id()}")
 
 result = job.result()
+
 print(result)
